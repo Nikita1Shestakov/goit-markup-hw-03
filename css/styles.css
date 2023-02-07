@@ -187,7 +187,7 @@ body {
   width: 264px;
 }
 .section-subtitles {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
   font-family: "Roboto";
@@ -229,7 +229,6 @@ body {
   display: flex;
   align-items: center;
   background-blend-mode: soft-light, normal;
-  padding-bottom: 120px;
 }
 /*********------Team---------*/
 .team {
@@ -357,7 +356,6 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
   flex-wrap: wrap;
 }
 .images-wrape {
@@ -372,7 +370,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   padding-left: 16px;
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .images-content {
   font-weight: 400;
