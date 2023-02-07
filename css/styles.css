@@ -382,5 +382,5 @@ body {
 }
 .example-list {
   border: 1px solid #e7e9fc;
-  width: calc(1080px/3);
+  width: calc(1080px / 3);
 }
