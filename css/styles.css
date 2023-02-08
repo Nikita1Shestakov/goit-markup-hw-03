@@ -325,9 +325,9 @@ body {
   gap: 24px;
   display: flex;
   align-items: center;
-  margin-left: 271px;
   margin-bottom: 72px;
   min-width: 586px;
+  justify-content: center;
 }
 .filter-btn {
   font-family: inherit;
@@ -355,12 +355,14 @@ body {
 .images-list {
   display: flex;
   align-items: center;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .images-wrape {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .images-title {
@@ -369,7 +371,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-left: 16px;
   margin-bottom: 8px;
 }
 .images-content {
@@ -378,7 +379,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-left: 16px;
 }
 .example-list {
   border: 1px solid #e7e9fc;
